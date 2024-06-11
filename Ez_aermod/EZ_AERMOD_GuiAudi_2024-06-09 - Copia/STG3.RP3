@@ -1,0 +1,457 @@
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  21112
+
+                     Data Processed on  9-JUN-2024 at 20:48:44
+
+                                      Stage 3                          Page   1
+
+              ********************************************************
+              ***        AERMET Setup Finished Successfully        ***
+              ********************************************************
+
+ 1.  Job File Names
+
+     Listing of Messages: STG3.MG3
+     Summary (this file): STG3.RP3
+
+
+ 2.  Upper Air Data  
+
+      Site ID    Latitude(deg.)   Longitude(deg.)   Time Adjustment
+        99999       27.67S            48.55W               3
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          NONE, NO DATA TO BE PROCESSED ON THIS PATH 
+
+
+
+ 3.  NWS Surface Data
+
+      Site ID    Latitude(deg.)   Longitude(deg.)   Time Adjustment   Elev. (m)
+        66666       26.29S            48.81W               0             10.0
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          NONE, NO DATA TO BE PROCESSED ON THIS PATH 
+
+
+
+ 4.  On-site Data    
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          NONE, NO DATA TO BE PROCESSED ON THIS PATH 
+
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  21112
+
+                     Data Processed on  9-JUN-2024 at 20:48:44
+
+                                      Stage 3                          Page   2
+
+              ********************************************************
+              ***        AERMET Setup Finished Successfully        ***
+              ********************************************************
+
+    1.  Input/Output Files
+
+        STG3.RP3                                             OPENED SUCCESSFULLY
+        STG3.MG3                                             OPENED SUCCESSFULLY
+        STG2.MRG                                             OPENED SUCCESSFULLY
+        METEO.SFC                                            OPENED SUCCESSFULLY
+        METEO.PFL                                            OPENED SUCCESSFULLY
+
+    2.  Dispersion Model for which Data Are Processed
+
+          AERMOD
+
+          The Processed Dates Are:    Starting:  1-JAN-2023
+                                        Ending:  1-JAN-2024
+
+    3.  Processing Options
+
+           Process       Scheme         Description
+           -------       ------         -----------
+        WIND DIRECTION   RANDOM      NWS wind directions are RANDOMIZED                          
+        CLOUD COVER      CCVR_Sub    Missing CCVR substitutions ARE included                     
+        TEMPERATURE      TEMP_Sub    Missing TEMP substitutions ARE included                     
+        SBL PROCESSING   UCALST      The default (Holtslag) method is used                       
+        ASOS ADJUSTMENT  ASOS_ADJ    ASOS wind speeds, if present, ARE adjusted for truncation   
+        SDG SELECTION    00Z/12Z     Sounding selection based on 00Z sdg                         
+                                      Selection window:  -1     1
+        REFERENCE LEVEL  SUBNWS      NWS WIND & TEMP data ARE SUBSTITUTED for missing ONSITE data
+                                      Anemometer height(m):   14.00
+
+    4.  Locations of Meteorological Data 
+
+         Data           Site     Longitude   Latitude
+        Pathway          ID      (degrees)   (degrees)
+        -------         ----     ---------   ---------
+        UPPERAIR        99999      48.55W      27.67S
+        SURFACE         66666      48.81W      26.29S
+
+    5.  Primary Site Surface Characteristics 
+
+          User Inputs Varied by: Season
+
+                  Wind Sector               Bowen   Roughness
+          Month   Start   End    Albedo     Ratio   Length (m)
+          ----------------------------------------------------
+            1        0.   45.      0.13      0.41     0.9220
+            2        0.   45.      0.13      0.41     0.9220
+            3        0.   45.      0.14      0.79     0.9262
+            4        0.   45.      0.14      0.79     0.9262
+            5        0.   45.      0.14      0.79     0.9262
+            6        0.   45.      0.17      0.83     0.9187
+            7        0.   45.      0.17      0.83     0.9187
+            8        0.   45.      0.17      0.83     0.9187
+            9        0.   45.      0.17      0.83     0.9187
+           10        0.   45.      0.17      0.83     0.9187
+           11        0.   45.      0.17      0.83     0.9187
+           12        0.   45.      0.13      0.41     0.9220
+
+            1       45.   90.      0.13      0.41     0.6958
+            2       45.   90.      0.13      0.41     0.6958
+            3       45.   90.      0.14      0.79     0.7057
+            4       45.   90.      0.14      0.79     0.7057
+            5       45.   90.      0.14      0.79     0.7057
+            6       45.   90.      0.17      0.83     0.6879
+            7       45.   90.      0.17      0.83     0.6879
+            8       45.   90.      0.17      0.83     0.6879
+            9       45.   90.      0.17      0.83     0.6879
+           10       45.   90.      0.17      0.83     0.6879
+           11       45.   90.      0.17      0.83     0.6879
+           12       45.   90.      0.13      0.41     0.6958
+
+            1       90.  135.      0.13      0.41     0.3941
+            2       90.  135.      0.13      0.41     0.3941
+            3       90.  135.      0.14      0.79     0.4048
+            4       90.  135.      0.14      0.79     0.4048
+            5       90.  135.      0.14      0.79     0.4048
+            6       90.  135.      0.17      0.83     0.3856
+            7       90.  135.      0.17      0.83     0.3856
+            8       90.  135.      0.17      0.83     0.3856
+            9       90.  135.      0.17      0.83     0.3856
+           10       90.  135.      0.17      0.83     0.3856
+           11       90.  135.      0.17      0.83     0.3856
+           12       90.  135.      0.13      0.41     0.3941
+
+            1      135.  180.      0.13      0.41     0.6993
+            2      135.  180.      0.13      0.41     0.6993
+            3      135.  180.      0.14      0.79     0.7065
+            4      135.  180.      0.14      0.79     0.7065
+            5      135.  180.      0.14      0.79     0.7065
+            6      135.  180.      0.17      0.83     0.6935
+            7      135.  180.      0.17      0.83     0.6935
+            8      135.  180.      0.17      0.83     0.6935
+            9      135.  180.      0.17      0.83     0.6935
+           10      135.  180.      0.17      0.83     0.6935
+           11      135.  180.      0.17      0.83     0.6935
+           12      135.  180.      0.13      0.41     0.6993
+
+            1      180.  225.      0.13      0.41     0.9398
+            2      180.  225.      0.13      0.41     0.9398
+            3      180.  225.      0.14      0.79     0.9413
+            4      180.  225.      0.14      0.79     0.9413
+            5      180.  225.      0.14      0.79     0.9413
+            6      180.  225.      0.17      0.83     0.9386
+            7      180.  225.      0.17      0.83     0.9386
+            8      180.  225.      0.17      0.83     0.9386
+            9      180.  225.      0.17      0.83     0.9386
+           10      180.  225.      0.17      0.83     0.9386
+           11      180.  225.      0.17      0.83     0.9386
+           12      180.  225.      0.13      0.41     0.9398
+
+            1      225.  270.      0.13      0.41     0.8291
+            2      225.  270.      0.13      0.41     0.8291
+            3      225.  270.      0.14      0.79     0.8329
+            4      225.  270.      0.14      0.79     0.8329
+            5      225.  270.      0.14      0.79     0.8329
+            6      225.  270.      0.17      0.83     0.8260
+            7      225.  270.      0.17      0.83     0.8260
+            8      225.  270.      0.17      0.83     0.8260
+            9      225.  270.      0.17      0.83     0.8260
+           10      225.  270.      0.17      0.83     0.8260
+           11      225.  270.      0.17      0.83     0.8260
+           12      225.  270.      0.13      0.41     0.8291
+
+            1      270.  315.      0.13      0.41     0.9501
+            2      270.  315.      0.13      0.41     0.9501
+            3      270.  315.      0.14      0.79     0.9562
+            4      270.  315.      0.14      0.79     0.9562
+            5      270.  315.      0.14      0.79     0.9562
+            6      270.  315.      0.17      0.83     0.9452
+            7      270.  315.      0.17      0.83     0.9452
+            8      270.  315.      0.17      0.83     0.9452
+            9      270.  315.      0.17      0.83     0.9452
+           10      270.  315.      0.17      0.83     0.9452
+           11      270.  315.      0.17      0.83     0.9452
+           12      270.  315.      0.13      0.41     0.9501
+
+            1      315.  360.      0.13      0.41     0.9074
+            2      315.  360.      0.13      0.41     0.9074
+            3      315.  360.      0.14      0.79     0.9115
+            4      315.  360.      0.14      0.79     0.9115
+            5      315.  360.      0.14      0.79     0.9115
+            6      315.  360.      0.17      0.83     0.9041
+            7      315.  360.      0.17      0.83     0.9041
+            8      315.  360.      0.17      0.83     0.9041
+            9      315.  360.      0.17      0.83     0.9041
+           10      315.  360.      0.17      0.83     0.9041
+           11      315.  360.      0.17      0.83     0.9041
+           12      315.  360.      0.13      0.41     0.9074
+
+    6.  Input File(s) for   AERMOD
+
+          Surface Meteorology:  METEO.SFC
+          Profile Data       :  METEO.PFL
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  21112
+
+                     Data Processed on  9-JUN-2024 at 20:48:44
+
+                                      Stage 3                          Page   3
+
+              ********************************************************
+              ***   AERMET Data Processing Finished Successfully   ***
+              ********************************************************
+
+               PROCESSING METEOROLOGICAL DATA FOR DISPERSION MODELING
+
+
+                      **** AERMET MESSAGE SUMMARY TABLE ****
+
+          0- 9   10-19   20-29   30-39   40-49   50-59   60-69   70-89   TOTAL
+       ------------------------------------------------------------------------
+
+  JOB       
+    E      0       0       0       0       0       0       0       0       0
+    W      0       0       0       0       0       0       0       0       0
+    I      0       1       0       0       0       0       0       0       1
+
+  METPREP   
+    E      0       0       0       0       0       0       0       0       0
+    W      2       0       0       0       0       0       0     203     205
+    I      0       0       0       0       0       0       0    4105    4105
+    T      0       0       0       0       0       0       0       0       0
+       ------------------------------------------------------------------------
+           2       1       0       0       0       0       0    4308    4311
+
+        ****    ERROR MESSAGES    ****
+
+               ---  NONE  ---
+
+
+        ****   WARNING MESSAGES   ****
+       1 METPREP    W03 LOCCRD  : LOCATION keyword on METPREP pathway is OBSOLETE unless OSMIX and No UADATA;
+       2 METPREP    W03 LOCCRD  :  The LOCATION used for sunrise in CBL calcs is from ONSITE (if available) or SURFACE station.
+  230101 METPREP    W73  MPPBL  : No ZICONV - No UA sounding - Julian day:   1
+  230102 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:   2
+  230103 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:   3
+  230104 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:   4
+  230105 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:   5
+  230106 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:   6
+  230107 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:   7
+  230108 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:   8
+  230109 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:   9
+  230110 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  10
+  230111 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  11
+  230112 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  12
+  230113 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  13
+  230114 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  14
+  230115 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  15
+  230116 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  16
+  230117 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  17
+  230118 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  18
+  230119 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  19
+  230120 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  20
+  230121 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  21
+  230122 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  22
+  230123 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  23
+  230124 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  24
+  230125 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  25
+  230126 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  26
+  230127 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  27
+  230128 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  28
+  230129 METPREP    W73  MPPBL  : No ZICONV - No UA sounding - Julian day:  29
+  230130 METPREP    W73  MPPBL  : No ZICONV - No UA sounding - Julian day:  30
+  230131 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  31
+  230201 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  32
+  230202 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  33
+  230206 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  37
+  230209 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  40
+  230211 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  42
+  230212 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  43
+  230213 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  44
+  230214 METPREP    W73  MPPBL  : No ZICONV - No UA sounding - Julian day:  45
+  230215 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  46
+  230217 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  48
+  230226 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  57
+  230227 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  58
+  230302 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  61
+  230303 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  62
+  230305 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  64
+  230306 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  65
+  230307 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  66
+  230308 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  67
+  230310 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  69
+  230314 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  73
+  230318 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  77
+  230319 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  78
+  230321 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  80
+  230322 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  81
+  230324 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  83
+  230325 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  84
+  230326 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  85
+  230330 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  89
+  230331 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  90
+  230401 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  91
+  230402 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  92
+  230403 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  93
+  230404 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY:  94
+  230411 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 101
+  230412 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 102
+  230413 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 103
+  230420 METPREP    W79  MPPBL  : No ZICONV - all HFLUX <=0 on Julian day: 110
+  230421 METPREP    W79  MPPBL  : No ZICONV - all HFLUX <=0 on Julian day: 111
+  230423 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 113
+  230426 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 116
+  230427 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 117
+  230501 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 121
+  230513 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 133
+  230514 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 134
+  230515 METPREP    W79  MPPBL  : No ZICONV - all HFLUX msg on Julian day: 135
+  230518 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 138
+  230527 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 147
+  230602 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 153
+  230603 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 154
+  230607 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 158
+  230608 METPREP    W79  MPPBL  : No ZICONV - all HFLUX <=0 on Julian day: 159
+  230609 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 160
+  230610 METPREP    W79  MPPBL  : No ZICONV - all HFLUX <=0 on Julian day: 161
+  230611 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 162
+  230616 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 167
+  230617 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 168
+  230618 METPREP    W73  MPPBL  : No ZICONV - No UA sounding - Julian day: 169
+  230628 METPREP    W79  MPPBL  : No ZICONV - all HFLUX <=0 on Julian day: 179
+  230702 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 183
+  230705 METPREP    W79  MPPBL  : No ZICONV - all HFLUX <=0 on Julian day: 186
+  230707 METPREP    W79  MPPBL  : No ZICONV - all HFLUX <=0 on Julian day: 188
+  230713 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 194
+  230714 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 195
+  230715 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 196
+  230716 METPREP    W79  MPPBL  : No ZICONV - all HFLUX <=0 on Julian day: 197
+  230723 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 204
+  230802 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 214
+  230803 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 215
+  230807 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 219
+  230811 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 223
+  230812 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 224
+  230815 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 227
+  230818 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 230
+  230821 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 233
+  230823 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 235
+  230824 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 236
+  230828 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 240
+  230903 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 246
+  230905 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 248
+  230909 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 252
+  230913 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 256
+  230914 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 257
+  230918 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 261
+  230919 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 262
+  231006 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 279
+  231007 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 280
+  231008 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 281
+  231009 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 282
+  231010 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 283
+  231011 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 284
+  231012 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 285
+  231013 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 286
+  231014 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 287
+  231015 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 288
+  231016 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 289
+  231017 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 290
+  231018 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 291
+  231019 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 292
+  231020 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 293
+  231021 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 294
+  231022 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 295
+  231023 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 296
+  231024 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 297
+  231025 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 298
+  231026 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 299
+  231027 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 300
+  231028 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 301
+  231029 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 302
+  231030 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 303
+  231031 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 304
+  231101 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 305
+  231102 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 306
+  231103 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 307
+  231104 METPREP    W79  MPPBL  : No ZICONV - all HFLUX <=0 on Julian day: 308
+  231105 METPREP    W79  MPPBL  : No ZICONV - all HFLUX <=0 on Julian day: 309
+  231106 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 310
+  231107 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 311
+  231108 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 312
+  231109 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 313
+  231110 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 314
+  231111 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 315
+  231112 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 316
+  231113 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 317
+  231114 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 318
+  231115 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 319
+  231116 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 320
+  231117 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 321
+  231118 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 322
+  231119 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 323
+  231120 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 324
+  231121 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 325
+  231122 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 326
+  231123 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 327
+  231124 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 328
+  231125 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 329
+  231126 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 330
+  231127 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 331
+  231128 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 332
+  231129 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 333
+  231130 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 334
+  231201 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 335
+  231202 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 336
+  231203 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 337
+  231204 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 338
+  231205 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 339
+  231206 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 340
+  231207 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 341
+  231208 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 342
+  231209 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 343
+  231210 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 344
+  231211 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 345
+  231212 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 346
+  231213 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 347
+  231214 METPREP    W73  MPPBL  : No ZICONV - No UA sounding - Julian day: 348
+  231215 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 349
+  231216 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 350
+  231217 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 351
+  231218 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 352
+  231219 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 353
+  231220 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 354
+  231221 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 355
+  231222 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 356
+  231223 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 357
+  231224 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 358
+  231225 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 359
+  231226 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 360
+  231227 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 361
+  231228 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 362
+  231229 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 363
+  231230 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 364
+  231231 METPREP    W79  MPPBL  : No ZICONV; HFLUX msg on 1st CBL hr JDAY: 365
+  240101 METPREP    W71  MPPBL  : No surf data for BL calcs on Julian day: 001
+
+    ASOS Commission Date for Surface Station    66666 Not Found.
+
+
+
+ The number of CALM winds  encountered is:    713
+ The number of VARIABLE WD encountered is:     77
+ The number of miss CCVR substitutions is:     95
+ The number of miss TEMP substitutions is:      8
